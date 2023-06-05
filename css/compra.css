@@ -1,0 +1,379 @@
+/* BODY */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.h2, h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: calc(1.325rem + .9vw);
+    padding: 1rem;
+    text-align: center;
+}
+
+.col-12 {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    text-align: left;
+}
+
+h3 {
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#enviar {
+    background: #322b2e;
+    border-radius: 0;
+    color: rgb(236, 236, 236);
+    border: 1px solid #ced4da;
+    margin: 2rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+#enviar:hover {
+    background-color: #c9c9c9;
+    color: rgb(56, 56, 56);
+}
+
+.container {
+    max-width: 1100px;
+}
+
+/* color de fondo bg */
+#navbg {
+    position: fixed;
+    --bs-bg-opacity: 1;
+    background-color: #322b2e;
+}
+.w-100 {
+    margin-top: 2rem;
+}
+.navbar-dark {
+    padding: 0;
+}
+
+/* PRODUCTO */
+a {
+    color: #383533;
+    font-size: 1.4rem;
+ }
+ 
+.listaProducto {
+    text-align: center;
+}
+
+.text-muted {
+    font-size: larger;
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+}
+.modal-footer>* {
+    background: white;
+    border: 0;
+    color: black;
+    font-size: 1rem;
+}
+.comprar {
+    background-color: #fff;
+    color: #322b2e;
+    border-radius: 0px;
+    border: solid 1px black;
+}
+.comprar:hover {
+    background-color:#322b2e;
+    color:  #fff;
+    border-radius: 0px;
+    border: solid 1px black;
+}
+.modal-footer>* {
+    background: white;
+    border: 0;
+    color: black;
+    border-radius: 0;
+    font-size: 1rem;
+}
+.modal-footer>*:hover {
+    background-color:#322b2e;
+    color:  #fff;
+    border: 0;
+    border-radius: 0;
+    font-size: 1rem;
+}
+.modal {
+    text-align: center;
+}
+.modal-body {
+    text-align: center;
+    max-width: 5;
+    margin: auto;
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+}
+
+
+
+/* DETALLE */
+#carouselExampleControlsNoTouching{
+    display: flex;
+}
+
+#detalle-t {
+    width: 100%;
+}
+
+select {
+    font-size: larger;
+}
+.small, small {
+    font-size: 1.1em;
+}
+#productName {
+    margin-top: 3rem;
+}
+
+
+/* GALLERY IMAGENES */
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+  
+  @media (min-width: 600px) {
+    .wide {
+      grid-column: span 2;
+    }
+  
+    .tall {
+      grid-row: span 2;
+    }
+  }
+
+/* CONTACTO */
+#nombre{
+    border-radius: 0;
+}
+#apellido{
+    border-radius: 0;
+}
+#email{
+    border-radius: 0;
+}
+#comentarios{
+    border-radius: 0;
+}
+#enviar {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    margin: 2rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+.enviarCarro {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3b3531;
+    color: whitesmoke;
+}
+footer h3 {
+    text-align: center;
+}
+footer a {
+    font-size: 0.5rem;
+    color: whitesmoke;
+}
+.a-insta {
+    font-size: 1.2rem;
+}
+
+.footer-content-container {
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* COMPRA */
+.navbar {
+    z-index: 99;
+}
+
+.sliderFade {
+    animation: fade 0.5s ease;
+}
+
+.sliderThumb, .sliderMainImage {
+    cursor: pointer;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+@media screen and (min-width:540px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* HOME */
+    .col-12 {
+        font-family: 'Roboto', sans-serif;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .tablet-vista {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 12rem;
+        padding: 0;
+    }
+    .comprar {
+        background-color: #fff;
+        color: #322b2e;
+    }
+    .btn-primary {
+        background: #fff;
+     color: black;
+    }
+    /* NAV */
+    .nav-link:hover {
+        background-color:#4f4742
+    }
+    .navbar-brand:hover {
+        background-color:#4f4742;
+        
+    }
+    
+    .h2title {
+        margin-top: 10rem;
+    }
+    
+    /* GALLERY */
+    header {
+        margin: auto;
+    }
+    .grid-container{
+        margin: auto;
+    }
+    
+    /* PRODUCTOS */
+   .efecto-img {
+    transition: 0.5s;
+    object-fit: cover;
+   }
+   .efecto-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+   .mb-3 {
+    margin: auto;
+    margin-bottom: 1rem!important;
+   }
+
+    
+
+  /* FORMULARIO */
+  #formulario {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+   }
+   
+   /* FOOTER */
+    footer{
+        margin: auto;
+    }
+
+    .footer-container{
+    height: 100%;
+    display: inline-flex;
+    text-align: center;
+    gap: 0px; 
+   }
+
+   #footer-espacio{
+    margin-left: 2rem;
+   }
+   
+   #footer-copy a{
+    font-size: 0.9rem;
+    margin: 1.7rem;
+   }
+
+}
+    @media (min-width: 992px) {
+    .col-lg-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    }
+
+    /* PRODUCTOS */
+    .listaProducto {
+        border: 2px solid rgb(193 193 193 / 27%);
+        padding-bottom: 1rem;
+       }
+
+    /* FORMULARIO */
+    #enviar {
+        border-radius: 0;
+        border: 1px solid #ced4da;
+        margin: 1rem;
+        padding: 0.8rem;
+        width: 12%;
+    }
+    .enviarCarro:hover {
+        background-color: #322b2e;
+        color: whitesmoke;
+    }
+
+}
+

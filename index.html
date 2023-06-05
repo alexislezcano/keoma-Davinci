@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEOMA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@600&display=swap" rel="stylesheet">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@600&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/keoma.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        
+    <div class="container">
+
+        <!-- NAVEGADOR -->
+        <section class="row">
+            <div class="container sticky-top" id="navbg">
+                    <div class="container">
+                        
+                            <nav class="navbar navbar-dark navbar-expand-md ">
+
+                                <a class="navbar-brand" href="#">KEOMA</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-controls="barraNavegacion" aria-expanded="false" aria-label="Despliega navegación">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="barraNavegacion">
+                                    <ul class="navbar-nav justify-content-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#productos">TIENDA</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#gallery">COLECCIÓN</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#formulario">CONTACTO</a>
+                                        </li>
+                                            
+                                    </ul>
+                                </div>
+                            </nav> 
+                        
+                    </div>
+            </div>
+        </section>
+
+        <!-- IMAGENES CARROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/home/banner1.jpg" class="d-block w-100 d-none d-md-block" alt="Modelo de portada">
+                <img src="img/home/mobile.png" class="d-block d-md-none w-100" alt="Modelo de portada">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>NUEVA COLECCIÓN 2023</h2>
+                  <p>Envíos gratis a todo el país desde $18.000ARS | 3 cuotas VISA, MasterCard y AMEX.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/home/banner2.jpg" class="d-block w-100 d-none d-md-block" alt="Modelo de portada">
+                <img src="img/home/mobile2.png" class="d-block d-md-none w-100" alt="Modelo de portada">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>NUEVA COLECCIÓN 2023</h2>
+                  <p>Envíos gratis a todo el país desde $18.000ARS | 3 cuotas VISA, MasterCard y AMEX.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/home/banner3.jpg" class="d-block w-100 d-none d-md-block" alt="Modelo de portada">
+                <img src="img/home/mobile3.png" class="d-block d-md-none w-100" alt="Modelo de portada">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>NUEVA COLECCIÓN 2023</h2>
+                  <p>Envíos gratis a todo el país desde $18.000ARS | 3 cuotas VISA, MasterCard y AMEX.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- INTRODUCCIÓN -->       
+        <section class="row" id="introduccion" >
+            <div class="col-12">
+                <div>
+                    <img id="imgInt" class="d-none d-md-block mx-auto" src="img/home/keoma-logo.svg" alt="logo de Keoma">
+                </div>
+                    <h1 class="h2title">Introducción</h1>
+            </div>
+                
+            <div class="col-12" id="intTexto">
+
+                    <p><strong lang="en">Keoma</strong> es una tienda online de ropa creada en 2018.
+                    Sin embargo, nuestro recorrido por el mundo de la <strong>moda</strong> comenzó hace más de 15 años,
+                    cuando abrimos nuestra primera tienda.</p>   
+
+                    <p>Nuestro concepto es ser una <strong>marca de ropa sin genero</strong> con el fin de buscar comodidad e inclusión, moda variable, la cual se renueva la colección cada temporada con prendas <strong>exclusivas</strong> y en <strong>tendencia</strong>. Los valores que representan a la marca son <em>claridad</em>, <em>diseños modernos</em>, <em>versatilidad</em> y <em>adaptación al cambio</em>.</p>
+                        
+                    <p>Este nuevo proyecto nace con la intención de llevar la <strong>moda</strong> a otra perspectiva.
+                    Queremos transmitir nuestra dedicación a este mundo y nuestro cuidado por los detalles,
+                    y ofrecer una forma diferente de combinar todas las prendas de nuestras <strong>colecciones</strong>.</p> 
+
+            </div>
+        </section>
+
+        <!-- GALLERIA DE FOTOS -->
+        <section class="row">
+            <div class="grid-container" id="gallery">
+                <div
+                class="grid-item tall"
+                style="background-image: url(img/galery/chicaAmarillo.jpg)"
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/chicaMarron.jpg);
+                "
+                ></div>
+        
+                <div
+                class="grid-item wide"
+                style="
+                    background-image: url(img/galery/chicaModelo.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/chicoModelo.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modelo1970.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modeloB.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modeloBe.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="background-image: url(img/galery/modeloC.jpg)"
+                ></div>
+                <div
+                class="grid-item tall wide"
+                style="
+                    background-image: url(img/galery/modeloChicoB.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modeloCorto.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modeloCruz.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/modeloSkate.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/niñaModelo.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/saltoSkate.jpg);
+                "
+                ></div>
+                <div
+                class="grid-item"
+                style="
+                    background-image: url(img/galery/chicoBolso.jpg);
+                "
+                ></div>
+            </div>
+        </section>
+
+        <!-- MODAL -->
+        <section class="row">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">Silk Long Sleeve</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="col-12 col-lg-6">
+                                    <img src="img/productos/remeron.png" class="m-1 w-50 sliderMainImage" data-bs-toggle="modal" data-bs-target="#imageModal" alt="imagen de un remeron">
+                                    <div>
+                                        <small class="text-muted"> Articulo: 08273</small>
+                                        <p>
+                                            Hecho en Italia, la elegancia se encarna en las piezas de salón de mezcla de seda. El ligero tejido italiano proporciona una sensación de mano de seda de lujo y comodidad fresca.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary comprar" data-bs-dismiss="modal">Cerrar</button>
+                            <a class="active comprar" href="detalle.html">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section class="row mb-3 g-3" id="productos">
+
+                <div class="col-12 tablet-vista">
+                    <h2 class="h2title">Productos</h2>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/remeron.jpg" alt="imagen de remeron" width="540"
+                        height="614">
+                        <h3>Remeron</h3>
+                        <p>Silk Long Sleeve</p>
+                        <p>AR$‌122,000.00</p>
+                        <button type="button" class="btn btn-primary comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/short.jpg" alt="imagen de short" width="540"
+                        height="614">
+                        <h3>Short</h3>
+                        <p>The Vintage Sweatshort</p>
+                        <p>AR$‌79,000.00</p>
+                        <button type="button" class="btn btn-primary comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/remera.jpg" alt="imagen de remera" width="540"
+                        height="614">
+                        <h3>Remera</h3>
+                        <p>Inside Out Mock Neck</p>
+                        <p>AR$‌74,600.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/pantalon.jpg" alt="imagen de pantalon" width="540"
+                        height="614">
+                        <h3>Pantalon</h3>
+                        <p>Relaxed Sweatpants</p>
+                        <p>AR$‌15,800.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/buzo.jpg" alt="imagen de termica" width="540"
+                        height="614">
+                        <h3>Termica</h3>
+                        <p>Relaxed Mockneck</p>
+                        <p>AR$‌14,100.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/puffer.jpg" alt="imagen de puffer" width="540"
+                        height="614">
+                        <h3>Puffer</h3>
+                        <p>Downfilled Puffer</p>
+                        <p>AR$‌420,200.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/mochila.jpg" alt="imagen de mochila" width="540"
+                        height="614">
+                        <h3>Mochila</h3>
+                        <p>Backpack</p>
+                        <p>AR$‌263,200.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 tablet-vista col-md-6 col-lg-4">
+                    <div class="listaProducto">
+                        
+                        <img class="img-fluid efecto-img"  src="img/productos/gorra.jpg" alt="imagen de gorra" width="540"
+                        height="614">
+                        <h3>Gorra</h3>
+                        <p>Hat</p>
+                        <p>AR$‌11,500.00</p>
+                        <button type="button" class="btn comprar" data-bs-toggle="modal" data-bs-target="#exampleModal">comprar
+                        </button>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="row justify-content-center" id="formulario">
+
+                <div class="col-12 text-center">
+                    <h2 class="h2title">Formulario</h2>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <label class="form-label" for="nombre">Nombre</label>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="form-floating">
+
+                        <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+                        <label class="form-label" for="apellido">Apellido</label>
+                        
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" name="email" id="email" placeholder="Ingrese su email">
+                    <label class="form-label" for="email">Email</label>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-3">
+                    <label for="comentarios" class="form-label">Comentanos</label>
+                    <textarea class="form-control" id="comentarios" name="comentarios" placeholder="Compartimos tu experiencia.." rows="3"></textarea>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-dark" id="enviar">Enviar</button>
+                </div>
+                
+
+        </section>
+
+        <!-- FOOTER -->
+        <section class="row">
+            <footer>
+                <div class="footer-container">
+
+                    <img class="d-block mx-auto" src="img/footer/perfil.png" alt="Foto de perfil">
+
+                    <div class="footer-content-container" id="footer-espacio">
+                        <h3>Alexis Lezcano</h3>
+                        <p>alexislezcano79@gmail.com</p>
+                        <a class="a-insta" href="https://www.instagram.com/alexislezcano22/" target="_blank">@alexislezcano22</a>
+                    </div>
+                </div>
+                
+                <div class="footer-menus ">
+                    <hr class="d-none d-md-block mx-auto">
+                    <div class="footer-content-container" id="footer-copy">
+                        <a href="" class="menu-item-footer">Politica de privacidad</a>
+                        <a href="" class="menu-item-footer">Cookies</a>
+                        <a href="" class="menu-item-footer">Terminos y condiciones</a>
+                    </div>
+                </div>
+                <div class="copyright-container">
+                    <span class="copyright">2022 alexis &copy;</span>
+                </div>
+
+            </footer>
+        </section>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    </div>
+</body>
+</html>
